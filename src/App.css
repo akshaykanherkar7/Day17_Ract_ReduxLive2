@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.buttonBox button {
+  border: none;
+  padding: 7px 15px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+}
+
+.buttonBox button:hover{
+  cursor: pointer;
+  color: rgb(215, 226, 64);
+  padding: 9px 18px;
+  background-color: grey;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
